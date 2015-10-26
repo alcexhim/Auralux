@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Auralux>
+	<Fixtures>
+		<Fixture ID="{015B76F4-A8EF-4252-8450-9FE5503C01F5}" ManufacturerID="{2206135E-DD28-4F91-857E-C5091820A04D}">
+			<Information>
+				<Title>SlimPAR 56 IRC IP</Title>
+			</Information>
+			<Channels>
+				<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" RelativeOffset="1">
+					<Information>
+						<Title>Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" RelativeOffset="2">
+					<Information>
+						<Title>Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" RelativeOffset="3">
+					<Information>
+						<Title>Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0-100%" />
+					</Values>
+				</Channel>
+
+				<Channel ID="{C4B69F2C-F62E-4C5E-873D-2D7012161418}" RelativeOffset="4">
+					<Information>
+						<Title>Color Macros</Title>
+						<Description>Overwrites channels Red, Green, Blue</Description>
+					</Information>
+					<Values>
+						<Static From="0" Until="15" Title="No function" />
+						<Range From="16" Until="255" Title="Color macros" />
+					</Values>
+				</Channel>
+				<Channel ID="{159842D9-51C4-4235-8ADC-E1F1F57356B3}" RelativeOffset="5">
+					<Information>
+						<Title>Speed</Title>
+					</Information>
+					<Values>
+						<!-- Speed, when Ch. 6 is within 032-223 -->
+						<Range From="0" Until="255" Title="Speed" />
+						<!-- Strobe -->
+						<Static From="0" Until="15" Title="No function" />
+						<Range From="16" Until="255" Title="Slow to fast" />
+					</Values>
+				</Channel>
+				<Channel ID="{9AB16952-1D29-4E15-B7EE-F3D5B97D18CE}" RelativeOffset="6">
+					<Information>
+						<Title>Mode</Title>
+					</Information>
+					<Values>
+						<Static From="0" Until="31" Title="RGB Mode" />
+						<Range From="32" Until="63" Title="Pulse effect 0~100%" />
+						<Range From="64" Until="95" Title="Pulse effect 100~0%" />
+						<Range From="96" Until="127" Title="Pulse effect 100~0~100%" />
+						<Static From="128" Until="159" Title="Auto fade transition" />
+						<Static From="160" Until="191" Title="Auto snap transition (3 colors)" />
+						<Static From="192" Until="255" Title="Auto snap transition (7 colors)" />
+					</Values>
+				</Channel>
+				<Channel ID="{47775500-A015-45B4-9625-6C50B25AB445}" RelativeOffset="7">
+					<Information>
+						<Title>Dimmer</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0~100%" />
+					</Values>
+				</Channel>
+			</Channels>
+			<Modes>
+				<Mode ID="{5A9036A8-B7C9-41DF-B7A9-B6E89A20F5B3}" Title="3-channel">
+					<Channels>
+						<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" />
+						<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" />
+						<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" />
+					</Channels>
+				</Mode>
+				<Mode ID="{AEC763B2-231F-4107-947A-526120E9CFBB}" Title="7-channel">
+					<Channels>
+						<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" />
+						<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" />
+						<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" />
+						
+						<Channel ID="{C4B69F2C-F62E-4C5E-873D-2D7012161418}" />
+						<Channel ID="{159842D9-51C4-4235-8ADC-E1F1F57356B3}" />
+						<Channel ID="{9AB16952-1D29-4E15-B7EE-F3D5B97D18CE}" />
+						<Channel ID="{47775500-A015-45B4-9625-6C50B25AB445}" />
+					</Channels>
+				</Mode>
+			</Modes>
+		</Fixture>
+	</Fixtures>
+</Auralux>

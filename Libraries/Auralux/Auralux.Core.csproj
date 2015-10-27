@@ -33,7 +33,12 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compiler.cs" />
     <Compile Include="DataFormats\Lighting\XML\LightingXMLDataFormat.cs" />
+    <Compile Include="ObjectModels\CompiledLightingSequence\CompiledLightingSequenceObjectModel.cs" />
+    <Compile Include="ObjectModels\CompiledLightingSequence\Frame.cs" />
+    <Compile Include="ObjectModels\CompiledLightingSequence\FrameChannel.cs" />
+    <Compile Include="Timestamp.cs" />
     <Compile Include="ObjectModels\Lighting\FixtureInstance.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="ObjectModels\Lighting\Fixture.cs" />
@@ -44,6 +49,8 @@
     <Compile Include="ObjectModels\Lighting\LightingObjectModel.cs" />
     <Compile Include="ObjectModels\Lighting\Manufacturer.cs" />
     <Compile Include="ObjectModels\Lighting\Presentation.cs" />
+    <Compile Include="ObjectModels\Lighting\PresentationCommand.cs" />
+    <Compile Include="ObjectModels\Lighting\PresentationTrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

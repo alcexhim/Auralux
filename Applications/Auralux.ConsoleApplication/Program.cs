@@ -14,8 +14,13 @@ namespace Auralux.ConsoleApplication
 		{
 			Manager.Load();
 
+			Presentation presentation = new Presentation();
+
 			FixtureInstance instance = new FixtureInstance(Manager.ObjectModel.Fixtures[0], 23);
 			instance.Mode = instance.Fixture.Modes[1];
+
+			presentation.Fixtures.Add(instance);
+
 		}
 	}
 }

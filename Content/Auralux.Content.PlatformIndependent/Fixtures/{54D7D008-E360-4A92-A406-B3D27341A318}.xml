@@ -854,6 +854,37 @@
 						<Channel ID="{DB61C5CD-5204-4C5D-ABDB-EEEC71F4722F}" RelativeOffset="11" />
 						<Channel ID="{AED1DCC3-EC1F-4C11-9962-95AEE7BC7989}" RelativeOffset="12" />
 					</Channels>
+					<Presets>
+						<Preset ID="{CF222AB5-FBD0-4E2A-B9F3-B259C9D00B24}">
+							<Information>
+								<Title>Dual Quadrant</Title>
+							</Information>
+							<ChannelGroups>
+								<ChannelGroup ID="{90C312D8-010B-4343-B0C9-F1EEC7F3B75A}" Title="Foreground">
+									<Channels>
+										<Channel ID="{6FB3B5FB-432E-4FAA-8528-B6B4FFD3CB58}" Color="Red" />
+										<Channel ID="{C7795B66-E123-4BCE-8ED8-E9E7EEBDBB70}" Color="Green" />
+										<Channel ID="{81B079F0-3734-4230-BF54-5E6FCAE6725A}" Color="Blue" />
+
+										<Channel ID="{D7F38AF2-6911-4533-BDD6-FEB856EEAAD6}" Color="Red" />
+										<Channel ID="{C4F2C2CB-E999-4897-8151-D17A4E3EF39C}" Color="Green" />
+										<Channel ID="{D9B4CB7F-E266-4AD6-90DA-38395E20F787}" Color="Blue" />
+									</Channels>
+								</ChannelGroup>
+								<ChannelGroup ID="{C56B55C9-1D20-4DC3-ABDA-F4662024345B}" Title="Background">
+									<Channels>
+										<Channel ID="{713786CC-AB07-4021-8E91-8871B4511278}" Color="Red" />
+										<Channel ID="{0DEB02E1-DD0A-4DFB-93A9-2D401859179F}" Color="Green" />
+										<Channel ID="{8F522C0A-CD93-493B-9629-2A737DD841B2}" Color="Blue" />
+										
+										<Channel ID="{5AA7CCF3-455B-46D5-9904-EFD5BC078DC8}" Color="Red" />
+										<Channel ID="{DB61C5CD-5204-4C5D-ABDB-EEEC71F4722F}" Color="Green" />
+										<Channel ID="{AED1DCC3-EC1F-4C11-9962-95AEE7BC7989}" Color="Blue" />
+									</Channels>
+								</ChannelGroup>
+							</ChannelGroups>
+						</Preset>
+					</Presets>
 				</Mode>
 				<Mode ID="{659EA8A9-C96F-4916-AFEA-30155F6794A4}" Title="72-channel">
 					<Channels>
@@ -930,6 +961,46 @@
 						<Channel ID="{602C0AC0-6A53-4529-A85E-8DFA9D162672}" RelativeOffset="71" />
 						<Channel ID="{389B2C5B-02CB-4A39-8E35-26CCBF26645E}" RelativeOffset="72" />
 					</Channels>
+					<Presets>
+						<Preset ID="{CF222AB5-FBD0-4E2A-B9F3-B259C9D00B24}">
+							<Information>
+								<Title>Dual Quadrant</Title>
+							</Information>
+							<ChannelGroups>
+								<ChannelGroup ID="{90C312D8-010B-4343-B0C9-F1EEC7F3B75A}" Title="Foreground">
+									<Channels>
+										<Channel ID="{91E8D57E-2715-4DF9-8C8C-D21C85087FD1}" Color="Red" />
+										<Channel ID="{9616C8FE-FEA5-4B77-ADAC-11B39F301CCC}" Color="Green" />
+										<Channel ID="{443DEE05-2527-4EE8-B8AB-2EBC65ECE6B6}" Color="Blue" />
+										
+										<Channel ID="{05BCB4B4-B91A-4B24-A685-6C51F52D15C9}" Color="Red" />
+										<Channel ID="{17E8FCA1-BB70-4395-9BF7-25B8ED5F5A7B}" Color="Green" />
+										<Channel ID="{F02BA7D7-1C3F-4B6F-8AEF-55E5D761DBA9}" Color="Blue" />
+										
+										<Channel ID="{CB904149-5E13-4312-9D76-ADADC124FCD2}" Color="Red" />
+										<Channel ID="{A55824F2-1FDF-4B55-A04E-3E30E6E562F9}" Color="Green" />
+										<Channel ID="{E3A5D373-B676-4DF6-9B79-DA0440621DDD}" Color="Blue" />
+										
+										<Channel ID="{FD40403F-D8C6-4742-929C-ED8CC426F457}" Color="Red" />
+										<Channel ID="{49A3728E-3DF9-4BBB-A577-70ED233C2CED}" Color="Green" />
+										<Channel ID="{C895E560-9103-4549-A0BB-702404696370}" Color="Blue" />
+										
+										<Channel ID="{7E901730-867A-4EDC-85D2-9545A81A73A6}" Color="Red" />
+										<Channel ID="{488885FE-BE53-42CB-8581-13C64DBC261C}" Color="Green" />
+										<Channel ID="{D640CC18-7B1E-4D12-9E8E-ECB65E165436}" Color="Blue" />
+										
+										<Channel ID="{B94EE887-CCAF-4A6F-B3EF-2495B4AAF692}" Color="Red" />
+										<Channel ID="{602C0AC0-6A53-4529-A85E-8DFA9D162672}" Color="Green" />
+										<Channel ID="{389B2C5B-02CB-4A39-8E35-26CCBF26645E}" Color="Blue" />
+									</Channels>
+								</ChannelGroup>
+								<ChannelGroup ID="{C56B55C9-1D20-4DC3-ABDA-F4662024345B}" Title="Background">
+									<Channels>
+									</Channels>
+								</ChannelGroup>
+							</ChannelGroups>
+						</Preset>
+					</Presets>
 				</Mode>
 			</Modes>
 		</Fixture>

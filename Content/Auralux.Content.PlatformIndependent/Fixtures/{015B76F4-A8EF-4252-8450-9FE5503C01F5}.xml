@@ -6,7 +6,7 @@
 				<Title>SlimPAR 56 IRC IP</Title>
 			</Information>
 			<Channels>
-				<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" RelativeOffset="1">
+				<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}">
 					<Information>
 						<Title>Red</Title>
 					</Information>
@@ -14,7 +14,7 @@
 						<Range From="0" Until="255" Title="0-100%" />
 					</Values>
 				</Channel>
-				<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" RelativeOffset="2">
+				<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}">
 					<Information>
 						<Title>Green</Title>
 					</Information>
@@ -22,7 +22,7 @@
 						<Range From="0" Until="255" Title="0-100%" />
 					</Values>
 				</Channel>
-				<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" RelativeOffset="3">
+				<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}">
 					<Information>
 						<Title>Blue</Title>
 					</Information>
@@ -31,7 +31,7 @@
 					</Values>
 				</Channel>
 
-				<Channel ID="{C4B69F2C-F62E-4C5E-873D-2D7012161418}" RelativeOffset="4">
+				<Channel ID="{C4B69F2C-F62E-4C5E-873D-2D7012161418}">
 					<Information>
 						<Title>Color Macros</Title>
 						<Description>Overwrites channels Red, Green, Blue</Description>
@@ -41,7 +41,7 @@
 						<Range From="16" Until="255" Title="Color macros" />
 					</Values>
 				</Channel>
-				<Channel ID="{159842D9-51C4-4235-8ADC-E1F1F57356B3}" RelativeOffset="5">
+				<Channel ID="{159842D9-51C4-4235-8ADC-E1F1F57356B3}">
 					<Information>
 						<Title>Speed</Title>
 					</Information>
@@ -53,7 +53,7 @@
 						<Range From="16" Until="255" Title="Slow to fast" />
 					</Values>
 				</Channel>
-				<Channel ID="{9AB16952-1D29-4E15-B7EE-F3D5B97D18CE}" RelativeOffset="6">
+				<Channel ID="{9AB16952-1D29-4E15-B7EE-F3D5B97D18CE}">
 					<Information>
 						<Title>Mode</Title>
 					</Information>
@@ -67,7 +67,7 @@
 						<Static From="192" Until="255" Title="Auto snap transition (7 colors)" />
 					</Values>
 				</Channel>
-				<Channel ID="{47775500-A015-45B4-9625-6C50B25AB445}" RelativeOffset="7">
+				<Channel ID="{47775500-A015-45B4-9625-6C50B25AB445}">
 					<Information>
 						<Title>Dimmer</Title>
 					</Information>
@@ -92,21 +92,21 @@
 			<Modes>
 				<Mode ID="{5A9036A8-B7C9-41DF-B7A9-B6E89A20F5B3}" Title="3-channel">
 					<Channels>
-						<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" />
-						<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" />
-						<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" />
+						<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" RelativeOffset="1" />
+						<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" RelativeOffset="2" />
+						<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" RelativeOffset="3" />
 					</Channels>
 				</Mode>
 				<Mode ID="{AEC763B2-231F-4107-947A-526120E9CFBB}" Title="7-channel">
 					<Channels>
-						<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" />
-						<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" />
-						<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" />
+						<Channel ID="{81798592-9701-414A-8DF8-62D9F466D756}" RelativeOffset="1" />
+						<Channel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" RelativeOffset="2" />
+						<Channel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" RelativeOffset="3" />
 						
-						<Channel ID="{C4B69F2C-F62E-4C5E-873D-2D7012161418}" />
-						<Channel ID="{159842D9-51C4-4235-8ADC-E1F1F57356B3}" />
-						<Channel ID="{9AB16952-1D29-4E15-B7EE-F3D5B97D18CE}" />
-						<Channel ID="{47775500-A015-45B4-9625-6C50B25AB445}" />
+						<Channel ID="{C4B69F2C-F62E-4C5E-873D-2D7012161418}" RelativeOffset="4" />
+						<Channel ID="{159842D9-51C4-4235-8ADC-E1F1F57356B3}" RelativeOffset="5" />
+						<Channel ID="{9AB16952-1D29-4E15-B7EE-F3D5B97D18CE}" RelativeOffset="6" />
+						<Channel ID="{47775500-A015-45B4-9625-6C50B25AB445}" RelativeOffset="7" />
 					</Channels>
 				</Mode>
 			</Modes>

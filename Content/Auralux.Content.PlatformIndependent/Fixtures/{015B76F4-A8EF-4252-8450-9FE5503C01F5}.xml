@@ -76,6 +76,19 @@
 					</Values>
 				</Channel>
 			</Channels>
+			<Heads>
+				<Head ID="{8FF447B6-F164-4F9C-A556-BBEFB63AFBE1}">
+					<Pods>
+						<Pod ID="{550D894A-0E70-446E-A174-FCB23C8A41F9}">
+							<Channels Mode="RGB">
+								<RedChannel ID="{81798592-9701-414A-8DF8-62D9F466D756}" />
+								<GreenChannel ID="{73AA299E-7C35-4C5A-9612-A5114EF84EF3}" />
+								<BlueChannel ID="{6F005F03-FF27-4946-943A-CE2A18243243}" />
+							</Channels>
+						</Pod>
+					</Pods>
+				</Head>
+			</Heads>
 			<Modes>
 				<Mode ID="{5A9036A8-B7C9-41DF-B7A9-B6E89A20F5B3}" Title="3-channel">
 					<Channels>

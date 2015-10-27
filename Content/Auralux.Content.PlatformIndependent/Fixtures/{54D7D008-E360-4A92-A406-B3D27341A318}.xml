@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Auralux>
+	<Fixtures>
+		<Fixture ID="{54D7D008-E360-4A92-A406-B3D27341A318}" ManufacturerID="{2206135E-DD28-4F91-857E-C5091820A04D}">
+			<Information>
+				<Title>PiX Par 64</Title>
+			</Information>
+			<Channels>
+				<Channel ID="{959A521D-6023-417C-88AF-D9F8DBEC6A91}">
+					<Information>
+						<Title>Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0~100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{5CA08D57-2D74-462C-8D4E-3089045B9E4F}">
+					<Information>
+						<Title>Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0~100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{275EFDE6-95C5-4AA9-B11A-E62746DB0CE2}">
+					<Information>
+						<Title>Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0~100%" />
+					</Values>
+				</Channel>
+
+				<Channel ID="{3ADEAF4D-BCB6-48F6-9E9F-95E7A2614D5B}">
+					<Information>
+						<Title>Dimmer</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="0~100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{9B684125-28C5-429D-8290-C581E4FAA7CB}">
+					<Information>
+						<Title>Color Macros</Title>
+					</Information>
+					<Values>
+						<Static From="0" Until="10" Title="No function" />
+						<Range From="11" Until="200" Title="Color Macros" />
+						<Range From="201" Until="205" Title="White 1: 3200K" />
+						<Range From="206" Until="210" Title="White 2: 3400K" />
+						<Range From="211" Until="215" Title="White 3: 4200K" />
+						<Range From="216" Until="220" Title="White 4: 4900K" />
+						<Range From="221" Until="225" Title="White 5: 5600K" />
+						<Range From="226" Until="230" Title="White 6: 5900K" />
+						<Range From="231" Until="235" Title="White 7: 6500K" />
+						<Range From="236" Until="240" Title="White 8: 7200K" />
+						<Range From="241" Until="245" Title="White 9: 8000K" />
+						<Range From="246" Until="250" Title="White 10: 8500K" />
+						<Range From="251" Until="255" Title="White 11: 10000K" />
+					</Values>
+				</Channel>
+				<Channel ID="{314E88B9-F1D4-46CA-B8A2-C54D1DE9821A}">
+					<Information>
+						<Title>Strobe</Title>
+					</Information>
+					<Values>
+						<Static From="0" Until="9" Title="No function" />
+						<Range From="10" Until="255" Title="0-30 Hz" />
+					</Values>
+				</Channel>
+				<Channel ID="{01E8E8FB-E6DB-4746-A7EA-7B4D974C22BD}">
+					<Information>
+						<Title>Auto Programs</Title>
+					</Information>
+					<Values>
+						<Static From="0" Until="9" Title="No function" />
+						<Static From="10" Until="19" Title="Fade transition (7 colors) 0%-100%-0%" />
+						<Static From="20" Until="29" Title="Fade transition (7 colors) 0%-100%" />
+						<Static From="30" Until="39" Title="Fade transition (7 colors) 100%-0%" />
+						<Static From="40" Until="49" Title="Auto fade transition (random)" />
+						<Static From="50" Until="59" Title="Loop of P1-P4" />
+						<Static From="60" Until="69" Title="Pixel program 1" />
+						<Static From="70" Until="79" Title="Pixel program 2" />
+						<Static From="80" Until="89" Title="Pixel program 3" />
+						<Static From="90" Until="99" Title="Pixel program 4" />
+						<Static From="100" Until="109" Title="Pixel program 5" />
+						<Static From="110" Until="119" Title="Pixel program 6" />
+						<Static From="120" Until="129" Title="Pixel program 7" />
+						<Static From="130" Until="139" Title="Pixel program 8" />
+						<Static From="140" Until="149" Title="Pixel program 9" />
+						<Static From="150" Until="159" Title="Pixel program 10" />
+						<Static From="160" Until="169" Title="Pixel program 11" />
+						<Static From="170" Until="179" Title="Pixel program 12" />
+						<Static From="180" Until="189" Title="Pixel program 13" />
+						<Static From="190" Until="199" Title="Pixel program 14" />
+						<Static From="200" Until="209" Title="Pixel program 15" />
+						<Static From="210" Until="219" Title="Pixel program 16" />
+						<Static From="220" Until="229" Title="Pixel program 17" />
+						<Static From="230" Until="239" Title="Random pixel program" />
+						<Static From="240" Until="249" Title="Pixel program scroll 1-17" />
+						<Static From="250" Until="255" Title="Pixel program scroll 1-17 (sound active)" />
+					</Values>
+				</Channel>
+				<Channel ID="{42192EA7-69EA-41CB-8AAA-C3766910B001}">
+					<Information>
+						<Title>Auto Program Speed</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="255" Title="Slow to fast (when Ch.7 is between 010-249)" />
+					</Values>
+				</Channel>
+				<Channel ID="{233AD6BC-FACB-44A6-AF29-2B56B77FE9B3}">
+					<Information>
+						<Title>Dimmer Curve</Title>
+					</Information>
+					<Values>
+						<Static From="0" Until="51" Title="Default speed" />
+						<Static From="52" Until="101" Title="Linear dimmer" />
+						<Static From="102" Until="152" Title="Nonlinear dimmer 1" />
+						<Static From="153" Until="203" Title="Nonlinear dimmer 2" />
+						<Static From="204" Until="255" Title="Nonlinear dimmer 3" />
+					</Values>
+				</Channel>
+				<!-- 24-channel -->
+				<!-- Quadrant 1 -->
+				<Channel ID="{6FB3B5FB-432E-4FAA-8528-B6B4FFD3CB58}">
+					<Information>
+						<Title>Quadrant 1 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{C7795B66-E123-4BCE-8ED8-E9E7EEBDBB70}">
+					<Information>
+						<Title>Quadrant 1 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{81B079F0-3734-4230-BF54-5E6FCAE6725A}">
+					<Information>
+						<Title>Quadrant 1 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<!-- Quadrant 2 -->
+				<Channel ID="{713786CC-AB07-4021-8E91-8871B4511278}">
+					<Information>
+						<Title>Quadrant 2 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{0DEB02E1-DD0A-4DFB-93A9-2D401859179F}">
+					<Information>
+						<Title>Quadrant 2 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{8F522C0A-CD93-493B-9629-2A737DD841B2}">
+					<Information>
+						<Title>Quadrant 2 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<!-- Quadrant 3 -->
+				<Channel ID="{D7F38AF2-6911-4533-BDD6-FEB856EEAAD6}">
+					<Information>
+						<Title>Quadrant 3 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{C4F2C2CB-E999-4897-8151-D17A4E3EF39C}">
+					<Information>
+						<Title>Quadrant 3 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D9B4CB7F-E266-4AD6-90DA-38395E20F787}">
+					<Information>
+						<Title>Quadrant 3 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<!-- Quadrant 4 -->
+				<Channel ID="{5AA7CCF3-455B-46D5-9904-EFD5BC078DC8}">
+					<Information>
+						<Title>Quadrant 4 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{DB61C5CD-5204-4C5D-ABDB-EEEC71F4722F}">
+					<Information>
+						<Title>Quadrant 4 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{AED1DCC3-EC1F-4C11-9962-95AEE7BC7989}">
+					<Information>
+						<Title>Quadrant 3 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				
+				<!-- 72-channel -->
+				<Channel ID="{91E8D57E-2715-4DF9-8C8C-D21C85087FD1}">
+					<Information>
+						<Title>LED 1 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{9616C8FE-FEA5-4B77-ADAC-11B39F301CCC}">
+					<Information>
+						<Title>LED 1 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{443DEE05-2527-4EE8-B8AB-2EBC65ECE6B6}">
+					<Information>
+						<Title>LED 1 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{86786ECB-2167-4958-BA4F-2D42B62A59E3}">
+					<Information>
+						<Title>LED 2 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{66220EAF-BBE2-425E-A316-B4C2D23602C0}">
+					<Information>
+						<Title>LED 2 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D7A6BC3D-3E5F-4AA2-98A3-1F270821E99B}">
+					<Information>
+						<Title>LED 2 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{EF5B11C9-020D-4F82-BEFF-9F2E140301EA}">
+					<Information>
+						<Title>LED 3 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{877FE854-88EE-4628-A9AA-B4A61A74033F}">
+					<Information>
+						<Title>LED 3 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{3F05A6F8-8E36-43A2-8B0A-2B56B7153D19}">
+					<Information>
+						<Title>LED 3 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{1200E49A-F94D-431A-8F41-22E921C41597}">
+					<Information>
+						<Title>LED 4 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{A1A9DB77-5FE0-41A1-9D39-56F869F51A14}">
+					<Information>
+						<Title>LED 4 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{251BE7E2-4F56-4CE0-9193-F93A90283196}">
+					<Information>
+						<Title>LED 4 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{05BCB4B4-B91A-4B24-A685-6C51F52D15C9}">
+					<Information>
+						<Title>LED 5 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{17E8FCA1-BB70-4395-9BF7-25B8ED5F5A7B}">
+					<Information>
+						<Title>LED 5 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{F02BA7D7-1C3F-4B6F-8AEF-55E5D761DBA9}">
+					<Information>
+						<Title>LED 5 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{B49C84AC-2C22-4A39-B3B3-C07BD538C0F3}">
+					<Information>
+						<Title>LED 6 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{363539FD-81A6-4C60-A75E-7692F93DBD67}">
+					<Information>
+						<Title>LED 6 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{926DF988-F7D3-4C25-8002-519F643C8E22}">
+					<Information>
+						<Title>LED 6 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{0B5C8A56-953F-4D5D-ADF6-D152B5B65C08}">
+					<Information>
+						<Title>LED 7 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{31F6CA4D-717D-4BF1-A9F0-ED93CB9CE2A2}">
+					<Information>
+						<Title>LED 7 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D3193158-9E53-43DA-90DA-9D1B2F1FC18B}">
+					<Information>
+						<Title>LED 7 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{662F1384-20B4-470F-838A-1EE3D806EBC7}">
+					<Information>
+						<Title>LED 8 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{F6AF5C15-C2F0-4EC7-9A16-127864D84B8B}">
+					<Information>
+						<Title>LED 8 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{09F2AE29-2479-4E60-9C21-E41EA908CBC4}">
+					<Information>
+						<Title>LED 8 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{4C44C87F-512E-4883-9294-BD4D97C4617B}">
+					<Information>
+						<Title>LED 9 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{ED570F3C-F2EC-4902-8E2A-0982FDB196CA}">
+					<Information>
+						<Title>LED 9 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{7DE9DCA9-A472-4275-8065-812D56CDAE88}">
+					<Information>
+						<Title>LED 9 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{32DA7A71-53BA-4B6A-9E40-0A9F82271713}">
+					<Information>
+						<Title>LED 10 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{5950C9BB-C5E9-4B5B-845E-87313D2F9FD6}">
+					<Information>
+						<Title>LED 10 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{680B3E88-C45D-46B5-9449-C4402E853903}">
+					<Information>
+						<Title>LED 10 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{028F8DF3-844E-45D8-818D-80F9C9CB7A76}">
+					<Information>
+						<Title>LED 11 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{036BE87D-FFF9-43A0-9B8B-4BDD8D58D970}">
+					<Information>
+						<Title>LED 11 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D182FBA3-3654-4E96-997C-8F007CB4B093}">
+					<Information>
+						<Title>LED 11 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{CB904149-5E13-4312-9D76-ADADC124FCD2}">
+					<Information>
+						<Title>LED 12 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{A55824F2-1FDF-4B55-A04E-3E30E6E562F9}">
+					<Information>
+						<Title>LED 12 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{E3A5D373-B676-4DF6-9B79-DA0440621DDD}">
+					<Information>
+						<Title>LED 12 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{FD40403F-D8C6-4742-929C-ED8CC426F457}">
+					<Information>
+						<Title>LED 13 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{49A3728E-3DF9-4BBB-A577-70ED233C2CED}">
+					<Information>
+						<Title>LED 13 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{C895E560-9103-4549-A0BB-702404696370}">
+					<Information>
+						<Title>LED 13 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{7E901730-867A-4EDC-85D2-9545A81A73A6}">
+					<Information>
+						<Title>LED 14 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{488885FE-BE53-42CB-8581-13C64DBC261C}">
+					<Information>
+						<Title>LED 14 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D640CC18-7B1E-4D12-9E8E-ECB65E165436}">
+					<Information>
+						<Title>LED 14 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{67C4EDA0-7877-4ABD-860E-8C9FFD301BF2}">
+					<Information>
+						<Title>LED 15 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{C9C3B0EE-523D-48ED-BD20-8AF1423BCB5B}">
+					<Information>
+						<Title>LED 15 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{487589A3-AF30-4172-98E9-82C423E89F68}">
+					<Information>
+						<Title>LED 15 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{BBF66CAB-9B50-4EB6-B565-1B5A18AF5A95}">
+					<Information>
+						<Title>LED 16 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{F5D63DF7-79D6-448B-80B6-5FD5EBFDDA47}">
+					<Information>
+						<Title>LED 16 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{4C7A0DA2-5DC5-42E7-8600-A84D80FFB59F}">
+					<Information>
+						<Title>LED 16 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{9726AC37-F78B-4896-AF94-58B13AA60322}">
+					<Information>
+						<Title>LED 17 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{08D6C52F-2489-4895-BE13-86635C7F4AE7}">
+					<Information>
+						<Title>LED 17 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{66411AC6-C252-4871-AB91-B9D747A266C3}">
+					<Information>
+						<Title>LED 17 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{62A20805-AA2C-43BF-AC81-448E088843AE}">
+					<Information>
+						<Title>LED 18 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D6584B64-E3BC-4303-8466-82DA581FDE8F}">
+					<Information>
+						<Title>LED 18 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{76B30B9D-21B6-4468-AB11-D43178036398}">
+					<Information>
+						<Title>LED 18 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{EFF28073-303F-42B1-8798-C4C35EAB45C5}">
+					<Information>
+						<Title>LED 19 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{296CCAF0-3887-4701-AA45-557B170A3042}">
+					<Information>
+						<Title>LED 19 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{49918B84-DE7D-4AC8-B4DE-EF2754E11DD8}">
+					<Information>
+						<Title>LED 19 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{220A0EED-630E-4907-B820-5784AD371982}">
+					<Information>
+						<Title>LED 20 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{600CEA52-915D-4953-BFCC-38E4EC294945}">
+					<Information>
+						<Title>LED 20 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{874FCAAE-3A2F-4E21-A0E2-2BAC149A484D}">
+					<Information>
+						<Title>LED 20 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{005E5006-189F-4454-939B-BB0F83081080}">
+					<Information>
+						<Title>LED 21 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{60DB8EDA-0967-40E1-B76F-246380906F60}">
+					<Information>
+						<Title>LED 21 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{8A2E3DF2-FE22-48FA-B338-EE940F2D2BF6}">
+					<Information>
+						<Title>LED 21 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{21CA0321-2DF1-42F0-8E96-ECD89E3213B6}">
+					<Information>
+						<Title>LED 22 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{2A9709B9-2871-4CAD-A56E-44DDE9E3FE57}">
+					<Information>
+						<Title>LED 22 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{86D929BB-9E23-4A56-B158-5438C8C0041D}">
+					<Information>
+						<Title>LED 22 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{BDACDBE0-1ADE-4CAC-85AF-EE6D18FC66B4}">
+					<Information>
+						<Title>LED 23 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{327E98AA-D6FF-4113-88B7-8D45F30B9035}">
+					<Information>
+						<Title>LED 23 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{D228D37E-7334-45A8-99FC-307E2E269F37}">
+					<Information>
+						<Title>LED 23 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{B94EE887-CCAF-4A6F-B3EF-2495B4AAF692}">
+					<Information>
+						<Title>LED 24 Red</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{602C0AC0-6A53-4529-A85E-8DFA9D162672}">
+					<Information>
+						<Title>LED 24 Green</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+				<Channel ID="{389B2C5B-02CB-4A39-8E35-26CCBF26645E}">
+					<Information>
+						<Title>LED 24 Blue</Title>
+					</Information>
+					<Values>
+						<Range From="0" Until="100" Title="0-100%" />
+					</Values>
+				</Channel>
+			</Channels>
+			<Heads>
+				<Head ID="{8FF447B6-F164-4F9C-A556-BBEFB63AFBE1}">
+					<Pods>
+						<Pod ID="{550D894A-0E70-446E-A174-FCB23C8A41F9}">
+							<Channels Mode="RGB">
+								<RedChannel ID="{959A521D-6023-417C-88AF-D9F8DBEC6A91}" />
+								<GreenChannel ID="{5CA08D57-2D74-462C-8D4E-3089045B9E4F}" />
+								<BlueChannel ID="{275EFDE6-95C5-4AA9-B11A-E62746DB0CE2}" />
+							</Channels>
+						</Pod>
+					</Pods>
+				</Head>
+			</Heads>
+			<Modes>
+				<Mode ID="{5A9036A8-B7C9-41DF-B7A9-B6E89A20F5B3}" Title="3-channel">
+					<Channels>
+						<Channel ID="{959A521D-6023-417C-88AF-D9F8DBEC6A91}" RelativeOffset="1" />
+						<Channel ID="{5CA08D57-2D74-462C-8D4E-3089045B9E4F}" RelativeOffset="2" />
+						<Channel ID="{275EFDE6-95C5-4AA9-B11A-E62746DB0CE2}" RelativeOffset="3" />
+					</Channels>
+				</Mode>
+				<Mode ID="{AEC763B2-231F-4107-947A-526120E9CFBB}" Title="9-channel">
+					<Channels>
+						<Channel ID="{3ADEAF4D-BCB6-48F6-9E9F-95E7A2614D5B}" RelativeOffset="1" />
+						<Channel ID="{959A521D-6023-417C-88AF-D9F8DBEC6A91}" RelativeOffset="2" />
+						<Channel ID="{5CA08D57-2D74-462C-8D4E-3089045B9E4F}" RelativeOffset="3" />
+						<Channel ID="{275EFDE6-95C5-4AA9-B11A-E62746DB0CE2}" RelativeOffset="4" />
+						<Channel ID="{9B684125-28C5-429D-8290-C581E4FAA7CB}" RelativeOffset="5" />
+						<Channel ID="{314E88B9-F1D4-46CA-B8A2-C54D1DE9821A}" RelativeOffset="6" />
+						<Channel ID="{01E8E8FB-E6DB-4746-A7EA-7B4D974C22BD}" RelativeOffset="7" />
+						<Channel ID="{42192EA7-69EA-41CB-8AAA-C3766910B001}" RelativeOffset="8" />
+						<Channel ID="{233AD6BC-FACB-44A6-AF29-2B56B77FE9B3}" RelativeOffset="9" />
+					</Channels>
+				</Mode>
+				<Mode ID="{01FF9B9C-A4DA-428B-8B9B-2C48BC2F085E}" Title="12-channel">
+					<Channels>
+						<!-- Quadrant 1 -->
+						<Channel ID="{6FB3B5FB-432E-4FAA-8528-B6B4FFD3CB58}" RelativeOffset="1" />
+						<Channel ID="{C7795B66-E123-4BCE-8ED8-E9E7EEBDBB70}" RelativeOffset="2" />
+						<Channel ID="{81B079F0-3734-4230-BF54-5E6FCAE6725A}" RelativeOffset="3" />
+						<!-- Quadrant 2 -->
+						<Channel ID="{713786CC-AB07-4021-8E91-8871B4511278}" RelativeOffset="4" />
+						<Channel ID="{0DEB02E1-DD0A-4DFB-93A9-2D401859179F}" RelativeOffset="5" />
+						<Channel ID="{8F522C0A-CD93-493B-9629-2A737DD841B2}" RelativeOffset="6" />
+						<!-- Quadrant 3 -->
+						<Channel ID="{D7F38AF2-6911-4533-BDD6-FEB856EEAAD6}" RelativeOffset="7" />
+						<Channel ID="{C4F2C2CB-E999-4897-8151-D17A4E3EF39C}" RelativeOffset="8" />
+						<Channel ID="{D9B4CB7F-E266-4AD6-90DA-38395E20F787}" RelativeOffset="9" />
+						<!-- Quadrant 4 -->
+						<Channel ID="{5AA7CCF3-455B-46D5-9904-EFD5BC078DC8}" RelativeOffset="10" />
+						<Channel ID="{DB61C5CD-5204-4C5D-ABDB-EEEC71F4722F}" RelativeOffset="11" />
+						<Channel ID="{AED1DCC3-EC1F-4C11-9962-95AEE7BC7989}" RelativeOffset="12" />
+					</Channels>
+				</Mode>
+				<Mode ID="{659EA8A9-C96F-4916-AFEA-30155F6794A4}" Title="72-channel">
+					<Channels>
+						<Channel ID="{91E8D57E-2715-4DF9-8C8C-D21C85087FD1}" RelativeOffset="1" />
+						<Channel ID="{9616C8FE-FEA5-4B77-ADAC-11B39F301CCC}" RelativeOffset="2" />
+						<Channel ID="{443DEE05-2527-4EE8-B8AB-2EBC65ECE6B6}" RelativeOffset="3" />
+						<Channel ID="{86786ECB-2167-4958-BA4F-2D42B62A59E3}" RelativeOffset="4" />
+						<Channel ID="{66220EAF-BBE2-425E-A316-B4C2D23602C0}" RelativeOffset="5" />
+						<Channel ID="{D7A6BC3D-3E5F-4AA2-98A3-1F270821E99B}" RelativeOffset="6" />
+						<Channel ID="{EF5B11C9-020D-4F82-BEFF-9F2E140301EA}" RelativeOffset="7" />
+						<Channel ID="{877FE854-88EE-4628-A9AA-B4A61A74033F}" RelativeOffset="8" />
+						<Channel ID="{3F05A6F8-8E36-43A2-8B0A-2B56B7153D19}" RelativeOffset="9" />
+						<Channel ID="{1200E49A-F94D-431A-8F41-22E921C41597}" RelativeOffset="10" />
+						<Channel ID="{A1A9DB77-5FE0-41A1-9D39-56F869F51A14}" RelativeOffset="11" />
+						<Channel ID="{251BE7E2-4F56-4CE0-9193-F93A90283196}" RelativeOffset="12" />
+						<Channel ID="{05BCB4B4-B91A-4B24-A685-6C51F52D15C9}" RelativeOffset="13" />
+						<Channel ID="{17E8FCA1-BB70-4395-9BF7-25B8ED5F5A7B}" RelativeOffset="14" />
+						<Channel ID="{F02BA7D7-1C3F-4B6F-8AEF-55E5D761DBA9}" RelativeOffset="15" />
+						<Channel ID="{B49C84AC-2C22-4A39-B3B3-C07BD538C0F3}" RelativeOffset="16" />
+						<Channel ID="{363539FD-81A6-4C60-A75E-7692F93DBD67}" RelativeOffset="17" />
+						<Channel ID="{926DF988-F7D3-4C25-8002-519F643C8E22}" RelativeOffset="18" />
+						<Channel ID="{0B5C8A56-953F-4D5D-ADF6-D152B5B65C08}" RelativeOffset="19" />
+						<Channel ID="{31F6CA4D-717D-4BF1-A9F0-ED93CB9CE2A2}" RelativeOffset="20" />
+						<Channel ID="{D3193158-9E53-43DA-90DA-9D1B2F1FC18B}" RelativeOffset="21" />
+						<Channel ID="{662F1384-20B4-470F-838A-1EE3D806EBC7}" RelativeOffset="22" />
+						<Channel ID="{F6AF5C15-C2F0-4EC7-9A16-127864D84B8B}" RelativeOffset="23" />
+						<Channel ID="{09F2AE29-2479-4E60-9C21-E41EA908CBC4}" RelativeOffset="24" />
+						<Channel ID="{4C44C87F-512E-4883-9294-BD4D97C4617B}" RelativeOffset="25" />
+						<Channel ID="{ED570F3C-F2EC-4902-8E2A-0982FDB196CA}" RelativeOffset="26" />
+						<Channel ID="{7DE9DCA9-A472-4275-8065-812D56CDAE88}" RelativeOffset="27" />
+						<Channel ID="{32DA7A71-53BA-4B6A-9E40-0A9F82271713}" RelativeOffset="28" />
+						<Channel ID="{5950C9BB-C5E9-4B5B-845E-87313D2F9FD6}" RelativeOffset="29" />
+						<Channel ID="{680B3E88-C45D-46B5-9449-C4402E853903}" RelativeOffset="30" />
+						<Channel ID="{028F8DF3-844E-45D8-818D-80F9C9CB7A76}" RelativeOffset="31" />
+						<Channel ID="{036BE87D-FFF9-43A0-9B8B-4BDD8D58D970}" RelativeOffset="32" />
+						<Channel ID="{D182FBA3-3654-4E96-997C-8F007CB4B093}" RelativeOffset="33" />
+						<Channel ID="{CB904149-5E13-4312-9D76-ADADC124FCD2}" RelativeOffset="34" />
+						<Channel ID="{A55824F2-1FDF-4B55-A04E-3E30E6E562F9}" RelativeOffset="35" />
+						<Channel ID="{E3A5D373-B676-4DF6-9B79-DA0440621DDD}" RelativeOffset="36" />
+						<Channel ID="{FD40403F-D8C6-4742-929C-ED8CC426F457}" RelativeOffset="37" />
+						<Channel ID="{49A3728E-3DF9-4BBB-A577-70ED233C2CED}" RelativeOffset="38" />
+						<Channel ID="{C895E560-9103-4549-A0BB-702404696370}" RelativeOffset="39" />
+						<Channel ID="{7E901730-867A-4EDC-85D2-9545A81A73A6}" RelativeOffset="40" />
+						<Channel ID="{488885FE-BE53-42CB-8581-13C64DBC261C}" RelativeOffset="41" />
+						<Channel ID="{D640CC18-7B1E-4D12-9E8E-ECB65E165436}" RelativeOffset="42" />
+						<Channel ID="{67C4EDA0-7877-4ABD-860E-8C9FFD301BF2}" RelativeOffset="43" />
+						<Channel ID="{C9C3B0EE-523D-48ED-BD20-8AF1423BCB5B}" RelativeOffset="44" />
+						<Channel ID="{487589A3-AF30-4172-98E9-82C423E89F68}" RelativeOffset="45" />
+						<Channel ID="{BBF66CAB-9B50-4EB6-B565-1B5A18AF5A95}" RelativeOffset="46" />
+						<Channel ID="{F5D63DF7-79D6-448B-80B6-5FD5EBFDDA47}" RelativeOffset="47" />
+						<Channel ID="{4C7A0DA2-5DC5-42E7-8600-A84D80FFB59F}" RelativeOffset="48" />
+						<Channel ID="{9726AC37-F78B-4896-AF94-58B13AA60322}" RelativeOffset="49" />
+						<Channel ID="{08D6C52F-2489-4895-BE13-86635C7F4AE7}" RelativeOffset="50" />
+						<Channel ID="{66411AC6-C252-4871-AB91-B9D747A266C3}" RelativeOffset="51" />
+						<Channel ID="{62A20805-AA2C-43BF-AC81-448E088843AE}" RelativeOffset="52" />
+						<Channel ID="{D6584B64-E3BC-4303-8466-82DA581FDE8F}" RelativeOffset="53" />
+						<Channel ID="{76B30B9D-21B6-4468-AB11-D43178036398}" RelativeOffset="54" />
+						<Channel ID="{EFF28073-303F-42B1-8798-C4C35EAB45C5}" RelativeOffset="55" />
+						<Channel ID="{296CCAF0-3887-4701-AA45-557B170A3042}" RelativeOffset="56" />
+						<Channel ID="{49918B84-DE7D-4AC8-B4DE-EF2754E11DD8}" RelativeOffset="57" />
+						<Channel ID="{220A0EED-630E-4907-B820-5784AD371982}" RelativeOffset="58" />
+						<Channel ID="{600CEA52-915D-4953-BFCC-38E4EC294945}" RelativeOffset="59" />
+						<Channel ID="{874FCAAE-3A2F-4E21-A0E2-2BAC149A484D}" RelativeOffset="60" />
+						<Channel ID="{005E5006-189F-4454-939B-BB0F83081080}" RelativeOffset="61" />
+						<Channel ID="{60DB8EDA-0967-40E1-B76F-246380906F60}" RelativeOffset="62" />
+						<Channel ID="{8A2E3DF2-FE22-48FA-B338-EE940F2D2BF6}" RelativeOffset="63" />
+						<Channel ID="{21CA0321-2DF1-42F0-8E96-ECD89E3213B6}" RelativeOffset="64" />
+						<Channel ID="{2A9709B9-2871-4CAD-A56E-44DDE9E3FE57}" RelativeOffset="65" />
+						<Channel ID="{86D929BB-9E23-4A56-B158-5438C8C0041D}" RelativeOffset="66" />
+						<Channel ID="{BDACDBE0-1ADE-4CAC-85AF-EE6D18FC66B4}" RelativeOffset="67" />
+						<Channel ID="{327E98AA-D6FF-4113-88B7-8D45F30B9035}" RelativeOffset="68" />
+						<Channel ID="{D228D37E-7334-45A8-99FC-307E2E269F37}" RelativeOffset="69" />
+						<Channel ID="{B94EE887-CCAF-4A6F-B3EF-2495B4AAF692}" RelativeOffset="70" />
+						<Channel ID="{602C0AC0-6A53-4529-A85E-8DFA9D162672}" RelativeOffset="71" />
+						<Channel ID="{389B2C5B-02CB-4A39-8E35-26CCBF26645E}" RelativeOffset="72" />
+					</Channels>
+				</Mode>
+			</Modes>
+		</Fixture>
+	</Fixtures>
+</Auralux>

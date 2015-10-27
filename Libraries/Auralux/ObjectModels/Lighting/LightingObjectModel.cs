@@ -9,11 +9,18 @@ namespace Auralux.Core.ObjectModels.Lighting
 {
 	public class LightingObjectModel : ObjectModel
 	{
+		private Manufacturer.ManufacturerCollection mvarManufacturers = new Manufacturer.ManufacturerCollection();
+		public Manufacturer.ManufacturerCollection Manufacturers { get { return mvarManufacturers; } }
+
 		private Fixture.FixtureCollection mvarFixtures = new Fixture.FixtureCollection();
 		public Fixture.FixtureCollection Fixtures { get { return mvarFixtures; } }
 
+		private Presentation.PresentationCollection mvarPresentations = new Presentation.PresentationCollection();
+		public Presentation.PresentationCollection Presentations { get { return mvarPresentations; } }
+
 		public override void Clear()
 		{
+			mvarManufacturers.Clear();
 			mvarFixtures.Clear();
 		}
 
@@ -22,9 +29,13 @@ namespace Auralux.Core.ObjectModels.Lighting
 			LightingObjectModel clone = (where as LightingObjectModel);
 			if (clone == null) throw new ObjectModelNotSupportedException();
 
-			foreach (Fixture fixt in mvarFixtures)
+			foreach (Manufacturer item in mvarManufacturers)
 			{
-				clone.Fixtures.Add(fixt.Clone() as Fixture);
+				clone.Manufacturers.Add(item.Clone() as Manufacturer);
+			}
+			foreach (Fixture item in mvarFixtures)
+			{
+				clone.Fixtures.Add(item.Clone() as Fixture);
 			}
 		}
 	}

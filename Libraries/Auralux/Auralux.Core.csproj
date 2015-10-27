@@ -33,9 +33,17 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataFormats\Lighting\XML\LightingXMLDataFormat.cs" />
+    <Compile Include="ObjectModels\Lighting\FixtureInstance.cs" />
+    <Compile Include="Manager.cs" />
     <Compile Include="ObjectModels\Lighting\Fixture.cs" />
+    <Compile Include="ObjectModels\Lighting\FixtureChannel.cs" />
+    <Compile Include="ObjectModels\Lighting\FixtureChannelValue.cs" />
+    <Compile Include="ObjectModels\Lighting\FixtureMode.cs" />
+    <Compile Include="ObjectModels\Lighting\FixtureModeChannel.cs" />
     <Compile Include="ObjectModels\Lighting\LightingObjectModel.cs" />
-    <Compile Include="ObjectModels\Lighting\Show.cs" />
+    <Compile Include="ObjectModels\Lighting\Manufacturer.cs" />
+    <Compile Include="ObjectModels\Lighting\Presentation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

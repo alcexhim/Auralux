@@ -36,10 +36,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Fixtures\{015B76F4-A8EF-4252-8450-9FE5503C01F5}.xml" />
-    <Content Include="Manufacturers\{2206135E-DD28-4F91-857E-C5091820A04D}.xml" />
+    <Content Include="Fixtures\{54D7D008-E360-4A92-A406-B3D27341A318}.alxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fixtures\{015B76F4-A8EF-4252-8450-9FE5503C01F5}.alxml" />
+    <None Include="Manufacturers\{2206135E-DD28-4F91-857E-C5091820A04D}.alxml" />
   </ItemGroup>
   <Target Name="Build">
     <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
